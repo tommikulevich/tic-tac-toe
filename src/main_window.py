@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
         super().__init__()
 
         # Loading UI created in Qt Designer
-        ui = QFile('resources/window_ui.ui')
+        ui = QFile(':/window_ui')
         ui.open(QFile.ReadOnly)
         self.ui = QUiLoader().load(ui, None)
         self.setCentralWidget(self.ui)
