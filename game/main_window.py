@@ -4,9 +4,8 @@ from PySide2.QtUiTools import QUiLoader
 from PySide2.QtWidgets import QGraphicsView, QMainWindow, QLineEdit, QLabel, QGraphicsScene, QAction, QStyle, \
     QMessageBox, QApplication
 
-from src.clock_item import Clock
-from src.board_scene import BoardScene
-import resources.resources_qrc
+from game.clock_item import Clock
+from game.board_scene import BoardScene
 
 
 class MainWindow(QMainWindow):

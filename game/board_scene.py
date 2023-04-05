@@ -1,9 +1,9 @@
 from PySide2.QtGui import QPixmap, Qt, QIcon, QTransform
 from PySide2.QtWidgets import QGraphicsScene, QMessageBox, QApplication, QStyle
 
-from src.tile_item import TileItem
-from src.piece_item import PieceItem
-from src.current_piece_item import CurrentPieceItem
+from game.tile_item import TileItem
+from game.piece_item import PieceItem
+from game.current_piece_item import CurrentPieceItem
 
 
 class BoardScene(QGraphicsScene):

@@ -1,8 +1,8 @@
 import sys
 from PySide2.QtWidgets import QApplication
 
-from src.main_window import MainWindow
-
+from game.main_window import MainWindow
+from resources import resources_qrc
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
