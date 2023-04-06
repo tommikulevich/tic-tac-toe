@@ -18,17 +18,17 @@ In the graphical interface, you can find:
 - **Players score**.
 - **A clock** indicating the current time.
 
-<img src="/_readme-img/1-main.png?raw=true 'Main window'" width="400">
+<img src="/_readme-img/1-main.png?raw=true" width="400" alt="Main window">
 
 The user can **change style** of the board and pieces by pressing the right mouse button. In the same way, the user can change an analog clock to a digital clock.
 
-<img src="/_readme-img/2-style.png?raw=true 'Style'" width="400">
+<img src="/_readme-img/2-style.png?raw=true" width="400" alt="Style">
 
 The player can **make a move** in one of three ways:
 - Left-click on the selected tile.
 - Enter the tile number in the input box and press Enter.
 - Select the tile using the arrows on keyboard ( ← ↑ ↓ → ) and press Enter. To disable tile focus, press Backspace.
 
-<img src="/_readme-img/3-focus.png?raw=true 'Focused tile'" width="400">
+<img src="/_readme-img/3-focus.png?raw=true" width="400" alt="Focused tile">
 
 If one of the sides **wins** or **draws**, a notification window will be displayed, the scoring will be updated, and possibility of perfoming moves will be blocked (until players start a new game by clicking Game -> Start | Restart).
